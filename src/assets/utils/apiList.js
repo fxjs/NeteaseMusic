@@ -38,36 +38,36 @@ const apiList = {
   'GET_MV_INFO': 'api/mv/detail', // 获取 mv 信息
   'GET_SIMI_MV': 'api/simi/mv', // 获取相似 mv
 
-  'QQ_SEARCH': 'apiQ/search', // qq 音乐搜索
-  'QQ_VKEY': 'apiQ/vkey', // qq音乐 vkey
-  'QQ_LYRIC': 'apiQ/lyric', // qq音乐歌词
-  'QQ_GET_COMMENT': 'apiQ/comment', // qq音乐获取评论
-  'QQ_GET_URLS': 'apiQ/song/urls', // 获取 qq 音乐播放链接
-  'QQ_SONG_FIND': 'apiQ/song/find', // 根据关键词去查找一首qq音乐中的歌
-  'QQ_SONG_FINDS': 'apiQ/song/finds', // 批量的查找
-  'QQ_SET_COOKIE': 'apiQ/user/setCookie', // 设置 cookie
-  'QQ_USER_DETAIL': 'apiQ/user/detail', // 查询qq用户的歌单
-  'QQ_LIST_DETAIL': 'apiQ/songlist', // qq 音乐歌单
-  'QQ_SINGER_DESC': 'apiQ/singer/desc', // qq 歌手介绍
-  'QQ_SINGER_SIM': 'apiQ/singer/sim', // qq 相似歌手
-  'QQ_SINGER_SONGS': 'apiQ/singer/songs', // qq 歌手的热门歌曲
-  'QQ_SINGER_ALBUMS': 'apiQ/singer/album', // qq 歌手的专辑
-  'QQ_ALBUM': 'apiQ/album', // qq 专辑信息
-  'QQ_ALBUM_SONGS': 'apiQ/album/songs', // qq 专辑歌曲
-  'QQ_SONG_DETAIL': 'apiQ/song', // qq 歌曲详情
-  'QQ_MV_INFO': 'apiQ/mv', // qq mv 信息,
-  'QQ_MV_URL': 'apiQ/mv/url', // qq mv 播放链接
-  'QQ_DOWN_URL': 'apiQ/song/url', // qq 下载歌曲链接
+  'QQ_SEARCH': '/apiQ/search', // qq 音乐搜索
+  'QQ_VKEY': '/apiQ/vkey', // qq音乐 vkey
+  'QQ_LYRIC': '/apiQ/lyric', // qq音乐歌词
+  'QQ_GET_COMMENT': '/apiQ/comment', // qq音乐获取评论
+  'QQ_GET_URLS': '/apiQ/song/urls', // 获取 qq 音乐播放链接
+  'QQ_SONG_FIND': '/apiQ/song/find', // 根据关键词去查找一首qq音乐中的歌
+  'QQ_SONG_FINDS': '/apiQ/song/finds', // 批量的查找
+  'QQ_SET_COOKIE': '/apiQ/user/setCookie', // 设置 cookie
+  'QQ_USER_DETAIL': '/apiQ/user/detail', // 查询qq用户的歌单
+  'QQ_LIST_DETAIL': '/apiQ/songlist', // qq 音乐歌单
+  'QQ_SINGER_DESC': '/apiQ/singer/desc', // qq 歌手介绍
+  'QQ_SINGER_SIM': '/apiQ/singer/sim', // qq 相似歌手
+  'QQ_SINGER_SONGS': '/apiQ/singer/songs', // qq 歌手的热门歌曲
+  'QQ_SINGER_ALBUMS': '/apiQ/singer/album', // qq 歌手的专辑
+  'QQ_ALBUM': '/apiQ/album', // qq 专辑信息
+  'QQ_ALBUM_SONGS': '/apiQ/album/songs', // qq 专辑歌曲
+  'QQ_SONG_DETAIL': '/apiQ/song', // qq 歌曲详情
+  'QQ_MV_INFO': '/apiQ/mv', // qq mv 信息,
+  'QQ_MV_URL': '/apiQ/mv/url', // qq mv 播放链接
+  'QQ_DOWN_URL': '/apiQ/song/url', // qq 下载歌曲链接
 
-  'MIGU_SEARCH': 'apiM/search', // 咪咕 搜索
-  'MIGU_URL_GET': 'apiM/song/url', // 咪咕 获取图片、播放链接
-  'MIGU_LYRIC': 'apiM/lyric', // 咪咕 歌词
-  'MIGU_SINGER_DESC': 'apiM/singer/desc', // 歌手详情
-  'MIGU_SINGER_SONGS': 'apiM/singer/songs', // 根据歌手获取歌曲
-  'MIGU_SINGER_ALBUMS': 'apiM/singer/albums', // 根据歌手获取专辑
-  'MIGU_ALBUM': 'apiM/album', // 获取专辑信息
-  'MIGU_SONG_INFO': 'apiM/song', // 咪咕 获取歌曲信息
-  'MIGU_PLAYLIST': 'apiM/playlist', // 咪咕 歌单
+  'MIGU_SEARCH': '/apiM/search', // 咪咕 搜索
+  'MIGU_URL_GET': '/apiM/song/url', // 咪咕 获取图片、播放链接
+  'MIGU_LYRIC': '/apiM/lyric', // 咪咕 歌词
+  'MIGU_SINGER_DESC': '/apiM/singer/desc', // 歌手详情
+  'MIGU_SINGER_SONGS': '/apiM/singer/songs', // 根据歌手获取歌曲
+  'MIGU_SINGER_ALBUMS': '/apiM/singer/albums', // 根据歌手获取专辑
+  'MIGU_ALBUM': '/apiM/album', // 获取专辑信息
+  'MIGU_SONG_INFO': '/apiM/song', // 咪咕 获取歌曲信息
+  'MIGU_PLAYLIST': '/apiM/playlist', // 咪咕 歌单
 
   '163': '//music.jsososo.com/neapi/index.php',
   'QQ_SONG_INFO': '//u.y.qq.com/cgi-bin/musicu.fcg',
