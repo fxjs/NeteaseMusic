@@ -861,7 +861,8 @@ export const download = async (id, songName, forceReq) => {
   }
 
   // 别的网站下载会有跨域问题
-  url = url.replace(/^(.+)qq.com/, 'http://124.89.197.18/amobile.music.tc.qq.com');
+  // url = url.replace(/^(.+)qq.com/, 'http://124.89.197.18/amobile.music.tc.qq.com');
+  url = url.replace(/^(.+)qq.com/, 'http://122.226.161.16/amobile.music.tc.qq.com');
   const downId = `${new Date().getTime()}${id}`;
   const name = songName ? songName : `${song.ar.map((a) => a.name).join('、')}-${song.name}.${songEndType}`;
 
